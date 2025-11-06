@@ -18,7 +18,7 @@ public class Cheers {
                 while (i < lenName) {
                         String add = ("an ");
                         char c = name.charAt(i);
-                        if (letters.indexOf(c) == -1) add = "a ";
+                        if (letters.indexOf(c) == -1) add = "a  ";
 
                         System.out.println("Give me " + add + c + ": " + c + "!");
                         i ++;
