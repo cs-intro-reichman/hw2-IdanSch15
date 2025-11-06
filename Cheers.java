@@ -16,7 +16,7 @@ public class Cheers {
                 String letters = ("AEFHILMNORSX");
                 
                 while (i < lenName) {
-                        String add = ("an  ");
+                        String add = ("an ");
                         char c = name.charAt(i);
                         if (letters.indexOf(c) == -1) add = "a  ";
 
