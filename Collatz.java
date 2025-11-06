@@ -8,7 +8,7 @@ public class Collatz {
 
 		if (mode.equals("v"))
 			while (seed > 0) {
-				System.out.print(start + ", ");
+				System.out.print(start + " ");
 				int num = start;
 				String count = " ";
 
@@ -29,7 +29,7 @@ public class Collatz {
 						break;
 					}
 
-					System.out.print(", ");
+					System.out.print(" ");
 				}
 
 				seed --;

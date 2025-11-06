@@ -20,7 +20,7 @@ public class Cheers {
                         char c = name.charAt(i);
                         if (letters.indexOf(c) == -1) add = "a ";
 
-                        System.out.println("give me " + add + c + ": " + c + "!");
+                        System.out.println("Give me " + add + c + ": " + c + "!");
                         i ++;
                 }
                 
