@@ -26,9 +26,9 @@ public class Cheers {
                 
                 System.out.println("What does that spell?");
 
-                
+
                 while (times > 0) {
-                        System.err.println(name + "!!!");     
+                        System.out.println(name + "!!!");     
                         times --;   
                 }
 
