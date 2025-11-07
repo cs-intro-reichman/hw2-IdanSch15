@@ -26,10 +26,12 @@ public class Cheers {
                 
                 System.out.println("What does that spell?");
 
-                while (times + 1 > 0) {
+                
+                while (times > 0) {
                         System.err.println(name + "!!!");     
                         times --;   
                 }
+
 
         }
 }
